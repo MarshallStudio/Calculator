@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.gridlayout.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GL_fragment_buttons_Simple_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:columnCount="4"
+    app:columnOrderPreserved="true">
+
+    <!--  ROW ONE  -->
+
+    <TextView
+        android:id="@+id/btn_leftParenthesis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="("
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="146dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+    <TextView
+        android:id="@+id/btn_rightParenthesis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text=")"
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="146dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+    <TextView
+        android:id="@+id/btn_percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="%"
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="146dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+    <TextView
+        android:id="@+id/btn_divide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="÷"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="146dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+    <!--  ROW TWO  -->
+    <TextView
+        android:id="@+id/btn_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="7"
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="146dp"
+        tools:layout_editor_absoluteY="146dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+    <TextView
+        android:id="@+id/btn_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="8"
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="146dp"
+        tools:layout_editor_absoluteY="146dp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+    <TextView
+        android:id="@+id/btn_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="9"
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="146dp"
+        tools:layout_editor_absoluteY="146dp"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+    <TextView
+        android:id="@+id/btn_multiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="×"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="146dp"
+        tools:layout_editor_absoluteY="146dp"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+
+    <!--  ROW THREE  -->
+    <TextView
+        android:id="@+id/btn_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="4"
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="146dp"
+        tools:layout_editor_absoluteY="293dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+    <TextView
+        android:id="@+id/btn_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="5"
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="146dp"
+        tools:layout_editor_absoluteY="293dp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+    <TextView
+        android:id="@+id/btn_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="6"
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="146dp"
+        tools:layout_editor_absoluteY="293dp"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+    <TextView
+        android:id="@+id/btn_subtract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="146dp"
+        tools:layout_editor_absoluteY="293dp"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+    <!--  ROW FOUR  -->
+    <TextView
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="146dp"
+        tools:layout_editor_absoluteY="439dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+    <TextView
+        android:id="@+id/btn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="2"
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="146dp"
+        tools:layout_editor_absoluteY="439dp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+    <TextView
+        android:id="@+id/btn_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="3"
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="146dp"
+        tools:layout_editor_absoluteY="439dp"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+    <TextView
+        android:id="@+id/btn_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowSpan="2"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="293dp"
+        tools:layout_editor_absoluteY="439dp"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+    <!--  ROW FIVE  -->
+    <TextView
+        android:id="@+id/btn_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="."
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="146dp"
+        tools:layout_editor_absoluteY="585dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+    <TextView
+        android:id="@+id/btn_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="146dp"
+        tools:layout_editor_absoluteY="585dp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+    <TextView
+        android:id="@+id/btn_equal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="="
+        android:textSize="30sp"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        tools:layout_conversion_absoluteHeight="146dp"
+        tools:layout_editor_absoluteY="585dp"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_conversion_absoluteWidth="103dp" />
+
+
+
+</androidx.gridlayout.widget.GridLayout>
