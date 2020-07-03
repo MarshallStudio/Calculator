@@ -25,9 +25,9 @@
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="146dp"
-        tools:layout_editor_absoluteY="0dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
         android:id="@+id/btn_rightParenthesis"
@@ -42,9 +42,9 @@
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="146dp"
-        tools:layout_editor_absoluteY="0dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="103dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
         android:id="@+id/btn_percentage"
@@ -59,9 +59,9 @@
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="146dp"
-        tools:layout_editor_absoluteY="0dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="206dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
         android:id="@+id/btn_divide"
@@ -78,9 +78,9 @@
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="146dp"
-        tools:layout_editor_absoluteY="0dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="309dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
+        tools:layout_editor_absoluteY="0dp" />
 
     <!--  ROW TWO  -->
     <TextView
@@ -96,9 +96,9 @@
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="146dp"
-        tools:layout_editor_absoluteY="146dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
+        tools:layout_editor_absoluteY="146dp" />
 
     <TextView
         android:id="@+id/btn_8"
@@ -113,9 +113,9 @@
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="146dp"
-        tools:layout_editor_absoluteY="146dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="103dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
+        tools:layout_editor_absoluteY="146dp" />
 
     <TextView
         android:id="@+id/btn_9"
@@ -130,9 +130,9 @@
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="146dp"
-        tools:layout_editor_absoluteY="146dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="206dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
+        tools:layout_editor_absoluteY="146dp" />
 
     <TextView
         android:id="@+id/btn_multiply"
@@ -149,9 +149,9 @@
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="146dp"
-        tools:layout_editor_absoluteY="146dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="309dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
+        tools:layout_editor_absoluteY="146dp" />
 
 
     <!--  ROW THREE  -->
@@ -168,9 +168,9 @@
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="146dp"
-        tools:layout_editor_absoluteY="293dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
+        tools:layout_editor_absoluteY="293dp" />
 
     <TextView
         android:id="@+id/btn_5"
@@ -185,9 +185,9 @@
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="146dp"
-        tools:layout_editor_absoluteY="293dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="103dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
+        tools:layout_editor_absoluteY="293dp" />
 
     <TextView
         android:id="@+id/btn_6"
@@ -202,9 +202,9 @@
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="146dp"
-        tools:layout_editor_absoluteY="293dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="206dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
+        tools:layout_editor_absoluteY="293dp" />
 
     <TextView
         android:id="@+id/btn_subtract"
@@ -221,9 +221,9 @@
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="146dp"
-        tools:layout_editor_absoluteY="293dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="309dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
+        tools:layout_editor_absoluteY="293dp" />
 
     <!--  ROW FOUR  -->
     <TextView
@@ -239,9 +239,9 @@
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="146dp"
-        tools:layout_editor_absoluteY="439dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
+        tools:layout_editor_absoluteY="439dp" />
 
     <TextView
         android:id="@+id/btn_2"
@@ -256,9 +256,9 @@
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="146dp"
-        tools:layout_editor_absoluteY="439dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="103dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
+        tools:layout_editor_absoluteY="439dp" />
 
     <TextView
         android:id="@+id/btn_3"
@@ -273,9 +273,9 @@
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="146dp"
-        tools:layout_editor_absoluteY="439dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="206dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
+        tools:layout_editor_absoluteY="439dp" />
 
     <TextView
         android:id="@+id/btn_plus"
@@ -293,9 +293,9 @@
         app:layout_rowSpan="2"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="293dp"
-        tools:layout_editor_absoluteY="439dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="309dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
+        tools:layout_editor_absoluteY="439dp" />
 
     <!--  ROW FIVE  -->
     <TextView
@@ -311,9 +311,9 @@
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="146dp"
-        tools:layout_editor_absoluteY="585dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
+        tools:layout_editor_absoluteY="585dp" />
 
     <TextView
         android:id="@+id/btn_0"
@@ -328,9 +328,9 @@
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="146dp"
-        tools:layout_editor_absoluteY="585dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="103dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
+        tools:layout_editor_absoluteY="585dp" />
 
     <TextView
         android:id="@+id/btn_equal"
@@ -345,10 +345,9 @@
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
         tools:layout_conversion_absoluteHeight="146dp"
-        tools:layout_editor_absoluteY="585dp"
+        tools:layout_conversion_absoluteWidth="103dp"
         tools:layout_editor_absoluteX="206dp"
-        tools:layout_conversion_absoluteWidth="103dp" />
-
+        tools:layout_editor_absoluteY="585dp" />
 
 
 </androidx.gridlayout.widget.GridLayout>

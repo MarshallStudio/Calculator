@@ -27,17 +27,16 @@ public class DisplayFragment extends Fragment {
     }
 
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        mRootView=inflater.inflate(R.layout.fragment_display, container, false);
+        mRootView = inflater.inflate(R.layout.fragment_display, container, false);
         initialize();
         setOnClickListener();
 
-        mViewModel= ViewModelProviders.of(requireActivity()).get(DisplayDataViewModel.class);
-        MutableLiveData<String> expressionLiveData=mViewModel.getExpression();
+        mViewModel = ViewModelProviders.of(requireActivity()).get(DisplayDataViewModel.class);
+        MutableLiveData<String> expressionLiveData = mViewModel.getExpression();
         expressionLiveData.observe(this, new Observer<String>() {
             @Override
             public void onChanged(String expression) {
@@ -52,7 +51,7 @@ public class DisplayFragment extends Fragment {
             }
         });
 
-        MutableLiveData<String> resultLiveData=mViewModel.getResult();
+        MutableLiveData<String> resultLiveData = mViewModel.getResult();
         resultLiveData.observe(this, new Observer<String>() {
             @Override
             public void onChanged(String result) {
@@ -61,18 +60,17 @@ public class DisplayFragment extends Fragment {
         });
 
 
-
         return mRootView;
     }
 
-    private void initialize(){
-        mExpressionTextView=mRootView.findViewById(R.id.TV_DisplayFrag_Expression);
-        mExpressionHScrollView=mRootView.findViewById(R.id.HSV_display);
-        mClearButton=mRootView.findViewById(R.id.btn_clear);
-        mResultTextView=mRootView.findViewById(R.id.TV_Result);
+    private void initialize() {
+        mExpressionTextView = mRootView.findViewById(R.id.TV_DisplayFrag_Expression);
+        mExpressionHScrollView = mRootView.findViewById(R.id.HSV_display);
+        mClearButton = mRootView.findViewById(R.id.btn_clear);
+        mResultTextView = mRootView.findViewById(R.id.TV_Result);
     }
 
-    public void setOnClickListener(){
+    public void setOnClickListener() {
         mClearButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

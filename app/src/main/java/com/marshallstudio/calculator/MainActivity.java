@@ -1,9 +1,8 @@
 package com.marshallstudio.calculator;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-import android.widget.FrameLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void initialize(){
+    private void initialize() {
     }
 }
